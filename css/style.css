@@ -1,0 +1,41 @@
+/* paragraphs & small headings */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Large heading */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+/* stylesheet components*/
+@import url('./components/container.css');
+@import url('./components/cards.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* variables */
+
+:root {
+    /* colors */
+    --primary-color: #D1D0F5;
+    --small-heading-c: #3A3946;
+    --large-heading-c: #000;
+    --paragraph-c: #6F6E7B;
+    --bg-color: #F5F5FD;
+
+    /* measurments */
+    --padding: 90px;
+    --radius: 30px;
+
+    /* font size */
+    --heading-1: 2rem;
+    --heading-2: 1.5rem;
+    --paragraph: 1rem;
+
+    /* font-weight */
+    --bold: 800;
+    --normal: 500;
+}
+
+

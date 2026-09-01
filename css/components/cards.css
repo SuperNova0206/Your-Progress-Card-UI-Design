@@ -1,0 +1,33 @@
+@import url('../style.css');
+
+/* progress bar container card*/
+.progress-bar-card {
+    width: 602px;
+    height: 316px;
+    background-color: var(--primary-color);
+    position: relative;
+    border-radius: var(--radius);
+}
+
+/* progress bar content card*/
+
+.progress-bar-content {
+    width: 560px;
+    height: 345px;
+    background-color: #fff;
+    border-radius: var(--radius);
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    padding: var(--padding);
+}
+
+.pro-bar-title {
+    font-size: var(--heading-2);
+    font-weight: var(--bold);
+    font-family: 'Merriweather';
+}
+
+.pro-bar-title::first-letter {
+    text-transform: uppercase;
+}
