@@ -20,6 +20,9 @@
     top: 20%;
     right: 0px;
     padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .pro-bar-title {
@@ -30,4 +33,28 @@
 
 .pro-bar-title::first-letter {
     text-transform: uppercase;
+}
+
+/* progess container */
+.progress-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.progress-percentage {
+    font-weight: var(--bold);
+    font-size: var(--heading-2);
+}
+
+.progress-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+    height: 124px;
+    border-radius: 124px;
+    position: relative;
 }
