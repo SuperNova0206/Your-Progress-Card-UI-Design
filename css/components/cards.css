@@ -37,9 +37,10 @@
 
 /* progess container */
 .progress-container {
-    width: 100%;
+    width: fit-content;
     display: flex;
     justify-content: space-between;
+    gap: 16px;
     align-items: center;
     font-family: 'Inter';
 }
@@ -57,4 +58,24 @@
     height: 124px;
     border-radius: 124px;
     position: relative;
+}
+
+.progress-msg {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.completed-tasks {
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.msg::first-letter {
+    text-transform: capitalize;
+}
+
+.msg {
+    color: #6F6E7B;
 }
